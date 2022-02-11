@@ -1,0 +1,53 @@
+speed(0)
+def move_up_a_row():
+left(90)
+forward(40)
+right(90)
+backward(400)
+def square():
+for i in range(4):
+forward(40)
+left(90)
+def draw_two_square_rows():
+color_value= 0
+for i in range(10):
+pendown()
+if color_value % 2 == 0:
+color_value= color_value+ 1
+color("black")
+else:
+color_value= color_value+ 1
+color("red")
+begin_fill()
+square()
+end_fill()
+penup()
+forward(40)
+
+move_up_a_row()
+for i in range(10):
+pendown()
+if color_value % 2 == 0:
+color_value= color_value+ 1
+color("red")
+else:
+color_value= color_value+ 1
+color("black")
+begin_fill()
+square()
+end_fill()
+penup()
+forward(40)
+
+
+# Send Tracy to starting position in bottom left corner.
+penup()
+setposition(-200,-200)
+# Call square drawing function
+for i in range(5):
+draw_two_square_rows()
+left(90)
+forward(40)
+left(90)
+forward(400)
+left(180)
