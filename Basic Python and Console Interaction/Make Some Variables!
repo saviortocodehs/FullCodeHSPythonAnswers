@@ -1,0 +1,6 @@
+greeting = "Hannah is"
+num = 28
+value = "years old!"
+print(greeting)
+print(num)
+print(value)
