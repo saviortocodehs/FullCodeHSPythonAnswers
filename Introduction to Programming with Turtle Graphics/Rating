@@ -1,0 +1,27 @@
+rating= 8
+def red_ex():
+pensize(5)
+color("red")
+left(45)
+for i in range(4):
+forward(100)
+backward(100)
+left(90)
+def yellow_line():
+pensize(5)
+color("yellow")
+forward(100)
+def green_check():
+pensize(5)
+color("green")
+left(45)
+for i in range(2):
+forward(100)
+backward(100)
+number = int(input("Enter a number: "))
+if number < 5:
+red_ex()
+elif number == 7:
+yellow_line()
+else:
+green_check()
