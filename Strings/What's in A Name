@@ -1,1 +1,4 @@
+# fill in the arguments and function body
+def name_contains(name, letter):
+    return name.find(letter) > -1
 
