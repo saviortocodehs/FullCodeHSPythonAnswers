@@ -1,0 +1,24 @@
+"tracy is ask user to guess number from 1-10"
+#user number
+user_number= int(input("Pick a number from 1-10?:"))
+#variable for secret number
+secret_number=7
+def draw_checkmark():
+penup()
+backward(50)
+right(90)
+pendown()
+pensize(15)
+color("green")
+left(45)
+forward(50)
+left(90)
+forward(100)
+penup()
+draw_checkmark()
+if user_number < 5:
+circle(50)
+elif count > 5:
+circle(50,360,4)
+else:
+forward(50)
