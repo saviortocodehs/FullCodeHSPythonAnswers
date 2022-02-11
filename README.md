@@ -1,6 +1,6 @@
 # FullCodeHSPythonAnswers
 I hate CodeHS so I made this so y'all won't have to go through pain
 
-3/9 is done and I'll try to finish it before this month.
+Stream Kanye and Bladee. Drain Gang>>>Anybody
 
 Save by pressing Code on the top incase it gets deleted.
