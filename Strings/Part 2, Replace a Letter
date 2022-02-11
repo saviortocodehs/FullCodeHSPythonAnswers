@@ -1,0 +1,2 @@
+def replace_at_index(string, index, letter):
+    return string[:index] + letter + string[index + 1:]
