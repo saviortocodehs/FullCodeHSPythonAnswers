@@ -1,0 +1,12 @@
+ penup()
+radius=2
+for i in range(25,101,25):
+setposition(0,0)
+right(90)
+forward(i)
+left(90)
+pendown()
+circle(i)
+penup()
+def draw_something():
+forward(20)
