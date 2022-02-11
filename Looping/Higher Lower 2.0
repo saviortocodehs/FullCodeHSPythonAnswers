@@ -1,0 +1,10 @@
+secret_number = 3.3312
+while True:
+    guess = float(input("Enter a guess: "))
+    if round (guess, 2) == round(secret_number, 2):
+        print ("Correct!")
+        break
+    elif (guess > secret_number):
+        print ("Too high!")
+    else:
+        print ("Too low!")
