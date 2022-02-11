@@ -1,0 +1,7 @@
+radius = int(input("What is the radius of the circle? "))
+row_value= int(input("What is the row value of the circle? "))
+def row_value():
+setposition(0, radius)
+for i in range(15):
+circle(25)
+row_value()
