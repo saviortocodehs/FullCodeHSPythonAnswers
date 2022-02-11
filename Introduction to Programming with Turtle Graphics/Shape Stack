@@ -1,0 +1,14 @@
+"""This code will help Tracey put her toy blocks into a tall stack"""
+def draw_circle_stack():
+for i in range(4):
+pendown()
+circle(25)
+forward(100)
+def draw_square_stack():
+left(90)
+for i in range(4):
+pendown()
+left(90)
+circle(50, 360, 4)
+draw_square_stack()
+draw_circle_stack()
