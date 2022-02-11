@@ -1,0 +1,13 @@
+"""this code will make Tracey a bead bracelet for her b-day"""
+def draw_beaded_braclet():
+for i in range(36):
+color("purple")
+forward(10)
+pendown()
+circle(10)
+left(10)
+penup()
+color("blue")
+forward(10)
+color("red")
+draw_beaded_braclet()
