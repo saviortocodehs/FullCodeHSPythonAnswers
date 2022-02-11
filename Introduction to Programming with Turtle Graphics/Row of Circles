@@ -1,0 +1,7 @@
+pendown()
+backward(190)
+for i in range (20):
+pendown()
+circle(20)
+penup()
+forward(20)
