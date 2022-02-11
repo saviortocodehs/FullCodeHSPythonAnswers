@@ -1,0 +1,23 @@
+first_radius=int(input("what is the first circle's radius?:"))
+def draw_square_big(color_choice, radius_choice):
+penup()
+backward(first_radius)
+pendown()
+color(color_choice)
+begin_fill()
+for i in range(4):
+forward(first_radius*2)
+left(90)
+end_fill()
+def draw_circle_wide(color_choice, radius_choice):
+pendown()
+color(color_choice)
+begin_fill()
+circle(radius_choice)
+end_fill()
+penup()
+setposition(0,-first_radius)
+draw_square_big("red", first_radius)
+penup()
+setposition(0,-first_radius)
+draw_circle_wide("blue", first_radius)
