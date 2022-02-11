@@ -1,0 +1,2 @@
+def contains_vowel(word):
+    return "a" in word or "e" in word or "i" in word or "o" in word or "u" in word
