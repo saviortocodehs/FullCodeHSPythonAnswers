@@ -1,0 +1,3 @@
+def spell_name (name):
+    result = list (name)
+    return result
