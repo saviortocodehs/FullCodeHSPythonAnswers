@@ -1,0 +1,7 @@
+word = "eggplant"
+
+print ("Your word is: " + word + ".")
+
+for i in word:
+
+   print (i + "!")
