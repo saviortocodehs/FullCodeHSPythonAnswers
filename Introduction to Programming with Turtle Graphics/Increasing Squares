@@ -1,0 +1,22 @@
+length = 50
+speed(0)
+#while loop for drawing the squares
+def drawSquare(l):
+for i in range(4):
+forward(l)
+left(90)
+
+while length < 400:
+penup()
+backward(length/2)
+right(90)
+forward(length/2)
+left(90)
+pendown()
+drawSquare(length)
+penup()
+forward(length/2)
+left(90)
+forward(length/2)
+right(90)
+length = length + 50
