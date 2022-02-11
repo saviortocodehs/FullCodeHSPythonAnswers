@@ -1,0 +1,27 @@
+int(input("square_length"))
+penup()
+setposition(-200,-200)
+pendown()
+left(90)
+for i in range(4):
+forward(50)
+right(90)
+penup()
+forward(400)
+pendown()
+right(90)
+for i in range(4):
+forward(50)
+right(90)
+forward(400)
+pendown()
+right(90)
+for i in range(4):
+forward(50)
+right(90)
+forward(400)
+pendown()
+right(90)
+for i in range(4):
+forward(50)
+right(90)
