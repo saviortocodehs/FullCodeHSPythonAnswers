@@ -1,0 +1,12 @@
+inputs = ["Yes"]
+def draw_eye():
+color("black")
+begin_fill()
+pendown()
+circle(10)
+end_fill()
+penup()
+happy = input("Are you happy? (Yes/No): ")
+if happy == "Yes":
+penup()
+right(90)
