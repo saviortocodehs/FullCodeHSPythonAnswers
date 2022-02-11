@@ -1,0 +1,7 @@
+your_age = int(input("How old are you?: "))
+age_requirement= 18
+can_vote = your_age >= age_requirement
+if can_vote:
+    print("old enough to vote")
+else:
+    print("not old enough to vote")
